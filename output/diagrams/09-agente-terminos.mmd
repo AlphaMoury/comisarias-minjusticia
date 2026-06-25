@@ -1,0 +1,10 @@
+%% Diagrama 9: Agente de Términos
+flowchart TD
+  A[Fecha de radicación] --> D[Agente de términos]
+  B[Tipo de proceso] --> D
+  C[Normativa / Plazos] --> D
+  D --> E[Cálculo de vencimiento]
+  E --> F[Alerta de Semáforo]
+  F --> G1["Verde: A tiempo"]
+  F --> G2["Amarillo: Vence pronto"]
+  F --> G3["Rojo: Crítico / Vencido"]

@@ -1,0 +1,13 @@
+%% Diagrama 11: MCP (Model Context Protocol)
+flowchart LR
+  subgraph Sin_MCP["Sin estándar MCP"]
+    IA1[IA] --> C1[Conector A] --> S1[Expedientes]
+    IA1 --> C2[Conector B] --> S2[Calendario]
+    IA1 --> C3[Conector C] --> S3[Normas]
+  end
+  subgraph Con_MCP["Con estándar MCP (Puente)"]
+    IA2[IA] --> MCP[Protocolo MCP]
+    MCP --> S1_2[Expedientes]
+    MCP --> S2_2[Calendario]
+    MCP --> S3_2[Normas]
+  end

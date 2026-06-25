@@ -1,0 +1,10 @@
+%% Diagrama 3: Mito vs Realidad
+flowchart LR
+  subgraph Mito["Mito (Inseguro)"]
+    A1[IA pública] -.-x B1["Sistemas internos (Acceso libre sin control)"]
+  end
+  subgraph Realidad["Realidad (Seguro)"]
+    A2[IA institucional] --> C2[Capa de permisos]
+    C2 --> D2[Conector autorizado]
+    D2 --> B2["Sistemas internos (Auditable)"]
+  end

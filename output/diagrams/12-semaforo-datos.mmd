@@ -1,0 +1,10 @@
+%% Diagrama 12: Semáforo de Datos Sensibles
+flowchart TD
+  A[Datos de Comisaría] --> S{Clasificación de seguridad}
+  S -->|Verde: Público| B[Leyes, jurisprudencia y plantillas vacías]
+  S -->|Amarillo: Interno| C[Documentos de gestión sin identificar personas]
+  S -->|Rojo: Sensible| D[Nombres, cédulas, direcciones, niños, violencia]
+  
+  B --> B2[Permitido en IA externas]
+  C --> C2[Permitido con seudonimización estricta]
+  D --> D2["PROHIBIDO en IA externas. Solo local seguro"]

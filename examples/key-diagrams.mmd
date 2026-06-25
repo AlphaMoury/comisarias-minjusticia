@@ -1,0 +1,51 @@
+%% Diagram 1: Cadena de valor de una Comisaría
+flowchart LR
+  A[Caso entra] --> B[Radicación]
+  B --> C[Verificación]
+  C --> D[Audiencia]
+  D --> E[Acta]
+  E --> F[Medida]
+  F --> G[Seguimiento]
+
+%% Diagram 2: IA generativa simple
+flowchart TD
+  P[Instrucción] --> M[Modelo de IA]
+  C[Contexto permitido] --> M
+  R[Reglas] --> M
+  M --> O[Borrador verificable]
+  O --> H[Revisión humana]
+
+%% Diagram 3: Chatbot vs Copiloto
+flowchart LR
+  U1[Usuario] --> AI1[Chatbot]
+  AI1 --> R1[Respuesta]
+
+  U2[Usuario] --> AI2[Copiloto]
+  D[Documentos autorizados] --> AI2
+  N[Normas y formatos] --> AI2
+  S[Sistemas conectados] --> AI2
+  AI2 --> R2[Respuesta verificable]
+
+%% Diagram 4: Agente
+flowchart TD
+  A[Agente] --- M[Modelo]
+  A --- RO[Rol]
+  A --- RU[Reglas]
+  A --- T[Herramientas]
+  A --- ME[Memoria autorizada]
+  A --- E[Evaluación]
+
+%% Diagram 5: MCP
+flowchart LR
+  IA[IA / Copiloto] --> MCP[MCP]
+  MCP --> X[Expedientes]
+  MCP --> Y[Calendario]
+  MCP --> Z[Normograma]
+  MCP --> W[Formatos]
+
+%% Diagram 6: Hoja de ruta
+flowchart LR
+  N1[Nivel 1: uso individual cuidadoso] --> N2[Nivel 2: prompts institucionales]
+  N2 --> N3[Nivel 3: copilotos internos]
+  N3 --> N4[Nivel 4: agentes conectados]
+  N4 --> N5[Nivel 5: sistema nacional interoperable]
