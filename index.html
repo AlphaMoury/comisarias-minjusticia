@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IA para Comisarías de Familia</title>
-  <meta name="description" content="Taller: del uso informal al copiloto institucional seguro." />
+  <title>IA para Comisarías de Familia · Sitio en construcción</title>
+  <meta name="description" content="Taller: del uso informal al copiloto institucional seguro. Sitio en preparación." />
   <style>
     :root {
       --crema: #FBF7F0;
@@ -25,15 +25,15 @@
       align-items: center;
       justify-content: center;
       padding: 24px;
-      line-height: 1.5;
+      line-height: 1.55;
     }
     .card {
       width: 100%;
-      max-width: 560px;
+      max-width: 580px;
       background: #FFFFFF;
       border: 1px solid var(--borde);
       border-radius: 24px;
-      padding: 40px 32px;
+      padding: 48px 36px;
       text-align: center;
       box-shadow: 0 18px 50px -24px rgba(44, 95, 111, 0.35);
     }
@@ -41,23 +41,29 @@
       display: inline-block;
       font-size: 13px;
       font-weight: 600;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.05em;
       text-transform: uppercase;
       color: var(--terracota);
       background: #FBEDE2;
       border: 1px solid #F0D8C4;
-      padding: 6px 14px;
+      padding: 7px 16px;
       border-radius: 999px;
-      margin-bottom: 24px;
+      margin-bottom: 28px;
+    }
+    .icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 24px;
+      display: block;
     }
     h1 {
-      font-size: clamp(26px, 6vw, 34px);
+      font-size: clamp(26px, 6vw, 36px);
       line-height: 1.2;
       color: var(--azul);
       margin-bottom: 12px;
     }
     .subtitle {
-      font-size: clamp(15px, 4vw, 18px);
+      font-size: clamp(15px, 4vw, 19px);
       color: var(--azul-claro);
       font-weight: 500;
       margin-bottom: 28px;
@@ -65,71 +71,64 @@
     .divider {
       height: 1px;
       background: var(--borde);
-      margin: 28px 0;
+      margin: 28px auto;
+      max-width: 80px;
     }
-    .qr-wrap {
-      display: inline-block;
-      padding: 16px;
-      background: #fff;
-      border: 1px solid var(--borde);
-      border-radius: 16px;
+    .message {
+      font-size: clamp(15px, 4vw, 17px);
+      color: #4A5A62;
+      max-width: 44ch;
+      margin: 0 auto 28px;
     }
-    .qr-wrap img { display: block; width: 180px; height: 180px; }
-    .qr-caption {
-      font-size: 14px;
-      color: var(--tinta);
-      margin-top: 14px;
-      font-weight: 500;
+    .dots {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 8px;
     }
-    .url {
-      display: inline-block;
-      margin-top: 6px;
-      font-size: 13px;
-      color: var(--azul-claro);
-      word-break: break-all;
-    }
-    .status {
-      margin-top: 28px;
-      font-size: 14px;
-      color: #6B7A82;
-    }
-    .dot {
-      display: inline-block;
-      width: 9px;
-      height: 9px;
+    .dots span {
+      width: 11px;
+      height: 11px;
       border-radius: 50%;
-      background: #4CAF50;
-      margin-right: 7px;
-      vertical-align: middle;
-      animation: pulse 1.8s infinite;
+      background: var(--azul-claro);
+      opacity: 0.35;
+      animation: bounce 1.4s infinite ease-in-out;
     }
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(76,175,80,0.45); }
-      70% { box-shadow: 0 0 0 9px rgba(76,175,80,0); }
-      100% { box-shadow: 0 0 0 0 rgba(76,175,80,0); }
+    .dots span:nth-child(2) { animation-delay: 0.2s; }
+    .dots span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes bounce {
+      0%, 80%, 100% { transform: translateY(0); opacity: 0.35; }
+      40% { transform: translateY(-8px); opacity: 1; }
     }
     footer {
-      margin-top: 24px;
-      font-size: 12px;
+      margin-top: 32px;
+      font-size: 13px;
       color: #9AA6AC;
     }
   </style>
 </head>
 <body>
   <main class="card">
-    <span class="badge">Prueba de publicación</span>
+    <span class="badge">Sitio en construcción</span>
+
+    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="#2C5F6F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M3 21h18" />
+      <path d="M5 21V7l7-4 7 4v14" />
+      <path d="M9 21v-6h6v6" />
+      <path d="M9 11h.01M15 11h.01" />
+    </svg>
+
     <h1>IA para Comisarías de Familia</h1>
     <p class="subtitle">Del uso informal al copiloto institucional seguro</p>
 
-    <div class="qr-wrap">
-      <img src="assets/qr.png" alt="Código QR que abre este sitio" />
-    </div>
-    <p class="qr-caption">Escanea para abrir esta página</p>
-    <a class="url" href="https://alphamoury.github.io/comisarias-minjusticia/">alphamoury.github.io/comisarias-minjusticia</a>
-
     <div class="divider"></div>
 
-    <p class="status"><span class="dot"></span>Sitio en preparación · el contenido del taller llegará pronto</p>
+    <p class="message">
+      Estamos preparando el material del taller. Muy pronto encontrarás aquí
+      la presentación completa, con sus diagramas y la guía de uso seguro de IA.
+    </p>
+
+    <div class="dots"><span></span><span></span><span></span></div>
 
     <footer>Taller · 120 minutos · Material pedagógico con datos ficticios</footer>
   </main>
