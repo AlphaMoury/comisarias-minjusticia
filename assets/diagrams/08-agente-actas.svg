@@ -1,0 +1,46 @@
+<svg width="1280" height="242.2425337308606" viewBox="-40 -142.2425337308606 1280 242.2425337308606" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#1e1e1e" />
+  </marker>
+</defs>
+  <rect x="-40" y="-142.2425337308606" width="1280" height="242.2425337308606" fill="#ffffff" />
+  <text x="363.22145393157075" y="-78.2425337308606" fill="#1e1e1e" font-size="24" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="363.22145393157075">Agente de Actas: de audio a documento</tspan>
+  </text>
+  <rect x="0" y="0" width="150" height="60" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="75.0" y="30.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="75.0">🎙️ Audio</tspan>
+  </text>
+  <rect x="210" y="0" width="150" height="60" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="285.0" y="30.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="285.0">Transcripción</tspan>
+  </text>
+  <rect x="420" y="0" width="150" height="60" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="495.0" y="20.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="495.0">Agente de</tspan>
+    <tspan x="495.0" dy="20.0">actas</tspan>
+  </text>
+  <rect x="630" y="0" width="150" height="60" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="705.0" y="30.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="705.0">Borrador</tspan>
+  </text>
+  <rect x="840.0101505727846" y="-0.15733387816192135" width="150" height="60" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="915.0101505727846" y="19.84266612183808" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="915.0101505727846">Revisión del</tspan>
+    <tspan x="915.0101505727846" dy="20.0">funcionario</tspan>
+  </text>
+  <rect x="1050" y="0" width="150" height="60" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="1125.0" y="20.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="1125.0">Acta</tspan>
+    <tspan x="1125.0" dy="20.0">firmada</tspan>
+  </text>
+  <path d="M 150 30 L 210 30" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 360 30 L 420 30" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 570 30 L 630 30" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 780 30 L 840 30" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 990 30 L 1050 30" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

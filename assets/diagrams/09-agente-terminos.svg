@@ -1,0 +1,49 @@
+<svg width="820" height="330.125" viewBox="-40 -100.125 820 330.125" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#1e1e1e" />
+  </marker>
+</defs>
+  <rect x="-40" y="-100.125" width="820" height="330.125" fill="#ffffff" />
+  <text x="0" y="-36.125" fill="#1e1e1e" font-size="24" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="0">Agente de Términos: Semáforo Procesal</tspan>
+  </text>
+  <rect x="0" y="0" width="180" height="50" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="90.0" y="25.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="90.0">Fecha radicación</tspan>
+  </text>
+  <rect x="0" y="70" width="180" height="50" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="90.0" y="95.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="90.0">Tipo de proceso</tspan>
+  </text>
+  <rect x="0" y="140" width="180" height="50" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="90.0" y="165.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="90.0">Normativa / Plazos</tspan>
+  </text>
+  <rect x="260" y="60" width="200" height="60" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="360.0" y="90.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="360.0">Agente de términos</tspan>
+  </text>
+  <path d="M 180 25 L 260 80" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 180 95 L 260 90" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 180 165 L 260 100" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="540" y="0" width="200" height="50" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="640.0" y="25.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="640.0">🟢 Verde: A tiempo</tspan>
+  </text>
+  <rect x="540" y="70" width="200" height="50" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="640.0" y="85.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="640.0">🟡 Amarillo: Vence</tspan>
+    <tspan x="640.0" dy="20.0">pronto</tspan>
+  </text>
+  <rect x="540" y="140" width="200" height="50" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="640.0" y="165.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="640.0">🔴 Rojo: Vencido</tspan>
+  </text>
+  <path d="M 460 75 L 540 25" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 460 90 L 540 95" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 460 105 L 540 165" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

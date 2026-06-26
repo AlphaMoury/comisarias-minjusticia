@@ -2,135 +2,403 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IA para Comisarías de Familia · Sitio en construcción</title>
-  <meta name="description" content="Taller: del uso informal al copiloto institucional seguro. Sitio en preparación." />
-  <style>
-    :root {
-      --crema: #FBF7F0;
-      --tinta: #233038;
-      --azul: #2C5F6F;
-      --azul-claro: #5C8A99;
-      --terracota: #C77D4A;
-      --borde: #E7DECF;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { height: 100%; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: radial-gradient(circle at 50% 0%, #FFFDF8 0%, var(--crema) 60%);
-      color: var(--tinta);
-      min-height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-      line-height: 1.55;
-    }
-    .card {
-      width: 100%;
-      max-width: 580px;
-      background: #FFFFFF;
-      border: 1px solid var(--borde);
-      border-radius: 24px;
-      padding: 48px 36px;
-      text-align: center;
-      box-shadow: 0 18px 50px -24px rgba(44, 95, 111, 0.35);
-    }
-    .badge {
-      display: inline-block;
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: var(--terracota);
-      background: #FBEDE2;
-      border: 1px solid #F0D8C4;
-      padding: 7px 16px;
-      border-radius: 999px;
-      margin-bottom: 28px;
-    }
-    .icon {
-      width: 64px;
-      height: 64px;
-      margin: 0 auto 24px;
-      display: block;
-    }
-    h1 {
-      font-size: clamp(26px, 6vw, 36px);
-      line-height: 1.2;
-      color: var(--azul);
-      margin-bottom: 12px;
-    }
-    .subtitle {
-      font-size: clamp(15px, 4vw, 19px);
-      color: var(--azul-claro);
-      font-weight: 500;
-      margin-bottom: 28px;
-    }
-    .divider {
-      height: 1px;
-      background: var(--borde);
-      margin: 28px auto;
-      max-width: 80px;
-    }
-    .message {
-      font-size: clamp(15px, 4vw, 17px);
-      color: #4A5A62;
-      max-width: 44ch;
-      margin: 0 auto 28px;
-    }
-    .dots {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-      margin-bottom: 8px;
-    }
-    .dots span {
-      width: 11px;
-      height: 11px;
-      border-radius: 50%;
-      background: var(--azul-claro);
-      opacity: 0.35;
-      animation: bounce 1.4s infinite ease-in-out;
-    }
-    .dots span:nth-child(2) { animation-delay: 0.2s; }
-    .dots span:nth-child(3) { animation-delay: 0.4s; }
-    @keyframes bounce {
-      0%, 80%, 100% { transform: translateY(0); opacity: 0.35; }
-      40% { transform: translateY(-8px); opacity: 1; }
-    }
-    footer {
-      margin-top: 32px;
-      font-size: 13px;
-      color: #9AA6AC;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>IA para Comisarías de Familia · Taller</title>
+  <meta name="description" content="Taller práctico: del uso informal al copiloto institucional seguro. Material pedagógico con datos ficticios." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="card">
-    <span class="badge">Sitio en construcción</span>
+  <div class="progress" aria-hidden="true"><div class="progress-bar" id="progressBar"></div></div>
 
-    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="#2C5F6F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M3 21h18" />
-      <path d="M5 21V7l7-4 7 4v14" />
-      <path d="M9 21v-6h6v6" />
-      <path d="M9 11h.01M15 11h.01" />
-    </svg>
+  <main id="deck">
 
-    <h1>IA para Comisarías de Familia</h1>
-    <p class="subtitle">Del uso informal al copiloto institucional seguro</p>
+    <!-- 1 -->
+    <section class="slide cover" data-block="0" data-title="Portada">
+      <div class="slide-inner">
+        <span class="kicker">Taller práctico · 2 horas</span>
+        <h1 class="cover-title">IA para Comisarías de Familia</h1>
+        <p class="cover-subtitle">Del uso informal al copiloto institucional seguro</p>
+        <ul class="cover-points">
+          <li>Para equipos jurídicos, psicosociales y administrativos</li>
+          <li>El funcionario competente siempre tiene la última palabra</li>
+          <li>Del uso libre al entorno institucional seguro</li>
+        </ul>
+        <p class="cover-hint">Usa las flechas, desliza o abre el <strong>índice</strong> para navegar</p>
+      </div>
+    </section>
 
-    <div class="divider"></div>
+    <!-- 2 -->
+    <section class="slide" data-block="1" data-title="La realidad actual">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 1 · Diagnóstico</span>
+        <h2 class="slide-title">La realidad actual en los despachos</h2>
+        <h3 class="slide-subtitle">La IA ya está aquí, pero sin gobernanza</h3>
+        <ul class="points">
+          <li>Copiar y pegar datos en herramientas web gratuitas expone información reservada</li>
+          <li>La necesidad diaria de resolver rápido supera el control institucional</li>
+          <li>El reto no es prohibir, sino gobernar el uso de la tecnología</li>
+        </ul>
+      </div>
+    </section>
 
-    <p class="message">
-      Estamos preparando el material del taller. Muy pronto encontrarás aquí
-      la presentación completa, con sus diagramas y la guía de uso seguro de IA.
-    </p>
+    <!-- 3 -->
+    <section class="slide has-diagram" data-block="1" data-title="Cadena de valor">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 1 · Diagnóstico</span>
+        <h2 class="slide-title">Cadena de valor de una Comisaría</h2>
+        <h3 class="slide-subtitle">¿Dónde aporta valor real la tecnología?</h3>
+        <ul class="points">
+          <li><strong>Radicación:</strong> clasificación automática de casos urgentes</li>
+          <li><strong>Audiencia y acta:</strong> transcripción y estructuración de borradores</li>
+          <li><strong>Seguimiento:</strong> control inteligente de términos procesales</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/01-cadena-valor.svg" alt="Cadena de valor de una comisaría: de radicación a seguimiento" loading="lazy" /></figure>
+      </div>
+    </section>
 
-    <div class="dots"><span></span><span></span><span></span></div>
+    <!-- 4 -->
+    <section class="slide" data-block="1" data-title="Los dolores diarios">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 1 · Diagnóstico</span>
+        <h2 class="slide-title">Los dolores diarios del despacho</h2>
+        <h3 class="slide-subtitle">El cuello de botella no es solo decidir, es procesar</h3>
+        <ul class="points">
+          <li>Formatos fragmentados y falta de sistemas de información unificados</li>
+          <li>Coexistencia del expediente digital y las carpetas físicas</li>
+          <li>Audiencias virtuales con transcripciones deficientes o manuales</li>
+        </ul>
+      </div>
+    </section>
 
-    <footer>Taller · 120 minutos · Material pedagógico con datos ficticios</footer>
+    <!-- 5 -->
+    <section class="slide" data-block="2" data-title="La puerta informal y sus riesgos">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 2 · Desmitificación</span>
+        <h2 class="slide-title">La puerta informal y sus riesgos</h2>
+        <h3 class="slide-subtitle">El costo oculto de las herramientas gratuitas</h3>
+        <ul class="points">
+          <li>Fuga de datos sensibles: nombres de menores, relatos de violencia, direcciones</li>
+          <li>Incumplimiento de la cadena de custodia y la reserva del expediente electrónico</li>
+          <li>Responsabilidad disciplinaria por tratamiento indebido de datos de menores</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6 -->
+    <section class="slide has-diagram" data-block="2" data-title="¿Qué es la IA generativa?">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 2 · Desmitificación</span>
+        <h2 class="slide-title">¿Qué es la IA generativa?</h2>
+        <h3 class="slide-subtitle">Explicación fácil para no técnicos</h3>
+        <ul class="points">
+          <li>No tiene conciencia ni razona como un humano; predice la siguiente palabra</li>
+          <li>La calidad del borrador depende 100% de la claridad de las instrucciones</li>
+          <li>Requiere siempre un humano que revise, corrija y valide la salida</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/02-ia-generativa.svg" alt="Entrada, contexto y reglas convergen en el modelo, que produce un borrador para revisión humana" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 7 -->
+    <section class="slide has-diagram" data-block="2" data-title="Qué NO hace la IA">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 2 · Desmitificación</span>
+        <h2 class="slide-title">Qué NO hace la IA</h2>
+        <h3 class="slide-subtitle">Desmintiendo la intrusión mágica</h3>
+        <ul class="points">
+          <li>No puede “buscar” en los expedientes físicos de tu comisaría</li>
+          <li>No accede por sí sola a las bases de datos de la Fiscalía o el ICBF</li>
+          <li>Si nadie la conecta de forma segura, opera en el vacío</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/03-mito-realidad.svg" alt="Mito frente a realidad: la IA pública no entra a los sistemas internos sin una capa segura de permisos" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 8 -->
+    <section class="slide" data-block="2" data-title="Mitos y realidades">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 2 · Desmitificación</span>
+        <h2 class="slide-title">Mitos y realidades de la IA en la justicia</h2>
+        <h3 class="slide-subtitle">Líneas rojas de la Sentencia T-323 de 2024</h3>
+        <ul class="points">
+          <li><strong>Mito:</strong> “la IA dictará las medidas de protección y sentencias”</li>
+          <li><strong>Realidad:</strong> “la IA apoya en estructurar plantillas y redactar borradores”</li>
+          <li><strong>Línea roja:</strong> el funcionario valora las pruebas y decide autónomamente</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 9 -->
+    <section class="slide has-diagram" data-block="3" data-title="Chatbot vs. Copiloto">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 3 · Evolución de la herramienta</span>
+        <h2 class="slide-title">Chatbot genérico vs. Copiloto institucional</h2>
+        <h3 class="slide-subtitle">La diferencia entre jugar y trabajar en serio</h3>
+        <ul class="points">
+          <li><strong>Chatbot:</strong> sin memoria autorizada, usa datos públicos, no es auditable</li>
+          <li><strong>Copiloto:</strong> accede a tus formatos oficiales, protege datos, registra auditoría</li>
+          <li>La directriz MinTIC de 2026 exige entornos seguros y gobernanza contractual</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/04-chatbot-copiloto.svg" alt="Chatbot público con respuesta genérica frente a copiloto institucional alimentado por documentos, normas y sistemas" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 10 -->
+    <section class="slide has-diagram" data-block="3" data-title="Del usuario al constructor">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 3 · Evolución de la herramienta</span>
+        <h2 class="slide-title">Del usuario al constructor</h2>
+        <h3 class="slide-subtitle">El futuro de la innovación en las comisarías</h3>
+        <ul class="points">
+          <li>Ya no es necesario saber programar para crear una miniapp o un flujo de trabajo</li>
+          <li>La habilidad clave es traducir el conocimiento institucional en reglas para la IA</li>
+          <li>Cada comisaría podrá configurar copilotos adaptados a sus formatos locales</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/05-usuario-constructor.svg" alt="Evolución del usuario pasivo a conversar con IA y luego a constructor no-code" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 11 -->
+    <section class="slide has-diagram" data-block="3" data-title="¿Qué es un agente de IA?">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 3 · Evolución de la herramienta</span>
+        <h2 class="slide-title">¿Qué es un agente de IA?</h2>
+        <h3 class="slide-subtitle">La anatomía del copiloto estructurado</h3>
+        <ul class="points">
+          <li><strong>Rol:</strong> la identidad asignada (ej.: asistente de actas)</li>
+          <li><strong>Reglas:</strong> salvaguardas y prohibiciones estrictas (ej.: no alucinar normas)</li>
+          <li><strong>Herramientas:</strong> conectores para consultar normogramas o calendarios</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/06-formula-agente.svg" alt="Fórmula del agente: modelo, rol, reglas, herramientas, memoria y evaluación" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 12 -->
+    <section class="slide has-diagram" data-block="3" data-title="Cómo mejorar un agente">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 3 · Evolución de la herramienta</span>
+        <h2 class="slide-title">Cómo mejorar un agente sin programar</h2>
+        <h3 class="slide-subtitle">El poder de los Skills y las Rules</h3>
+        <ul class="points">
+          <li><strong>Skills:</strong> guías paso a paso que describen el procedimiento correcto</li>
+          <li><strong>Rules:</strong> normas ético-legales y límites del debido proceso</li>
+          <li><strong>Memoria:</strong> normativas colombianas y formatos autorizados</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/07-mejorar-agente.svg" alt="Capas de mejora del agente: del modelo base a la revisión humana obligatoria" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 13 -->
+    <section class="slide has-diagram" data-block="4" data-title="El agente de actas">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 4 · Seguridad y sistemas</span>
+        <h2 class="slide-title">El agente de actas de audiencia</h2>
+        <h3 class="slide-subtitle">De audio desordenado a documento estructurado</h3>
+        <ul class="points">
+          <li><strong>Entrada:</strong> transcripción textual informal de la audiencia</li>
+          <li><strong>Proceso:</strong> el agente extrae asistentes, acuerdos y compromisos</li>
+          <li><strong>Salida:</strong> borrador listo para revisión y firmas del comisario</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/08-agente-actas.svg" alt="Del audio a la transcripción, al agente de actas, al borrador y a la revisión del funcionario" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 14 -->
+    <section class="slide has-diagram" data-block="4" data-title="El agente de términos">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 4 · Seguridad y sistemas</span>
+        <h2 class="slide-title">El agente de términos procesales</h2>
+        <h3 class="slide-subtitle">Semaforización inteligente para prevenir vencimientos</h3>
+        <ul class="points">
+          <li>Lectura automática de fechas de radicación y tipo de solicitud</li>
+          <li>Clasificación: verde (a tiempo), amarillo (vence pronto), rojo (crítico)</li>
+          <li>Evita vencimientos de términos y promueve la justicia oportuna</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/09-agente-terminos.svg" alt="Agente de términos que calcula vencimientos y los clasifica en un semáforo de tres colores" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 15 -->
+    <section class="slide has-diagram" data-block="4" data-title="Sistemas internos y conectores">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 4 · Seguridad y sistemas</span>
+        <h2 class="slide-title">Sistemas internos y conectores seguros</h2>
+        <h3 class="slide-subtitle">La arquitectura para datos reales</h3>
+        <ul class="points">
+          <li>El funcionario se conecta solo mediante su usuario institucional con permisos</li>
+          <li>Los datos nunca se envían al internet abierto para entrenar modelos externos</li>
+          <li>Registro de logs: quién, cuándo y para qué consultó el sistema</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/10-arquitectura-institucional.svg" alt="Arquitectura institucional por capas: usuario, interfaz, seguridad, inteligencia, conectividad, datos y auditoría" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 16 -->
+    <section class="slide has-diagram" data-block="4" data-title="MCP: el puente estándar">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 4 · Seguridad y sistemas</span>
+        <h2 class="slide-title">MCP: conectando la IA con las herramientas</h2>
+        <h3 class="slide-subtitle">El protocolo como puente estándar de información</h3>
+        <ul class="points">
+          <li>Evita crear conectores personalizados complejos para cada sistema</li>
+          <li>Centraliza el acceso seguro bajo las reglas de la entidad</li>
+          <li>Permite consultar expedientes y minutas sin romper la seguridad</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/11-mcp.svg" alt="Sin MCP los conectores se cruzan; con MCP un protocolo común ordena el acceso a expedientes, calendarios y normogramas" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 17 -->
+    <section class="slide has-diagram" data-block="4" data-title="Clasificación de datos">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 4 · Seguridad y sistemas</span>
+        <h2 class="slide-title">Clasificación de datos en Comisarías</h2>
+        <h3 class="slide-subtitle">Ley 1581 y el tratamiento de información sensible</h3>
+        <ul class="points">
+          <li><strong>Pública:</strong> leyes, normativas y formatos modelo vacíos (uso libre)</li>
+          <li><strong>Interna:</strong> documentos de gestión sin nombres reales (uso con cautela)</li>
+          <li><strong>Sensible:</strong> datos de menores, víctimas y violencia (prohibido en IA públicas)</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/12-semaforo-datos.svg" alt="Semáforo de datos: verde público, amarillo interno, rojo sensible" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 18 -->
+    <section class="slide" data-block="4" data-title="Qué NO subir a la nube">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 4 · Seguridad y sistemas</span>
+        <h2 class="slide-title">Qué NO subir a la nube pública</h2>
+        <h3 class="slide-subtitle">La Lista Roja de Seguridad</h3>
+        <ul class="points danger">
+          <li>Nombres reales, cédulas, teléfonos y correos de las partes</li>
+          <li>Direcciones exactas de residencias, lugares de trabajo o colegios</li>
+          <li>Grabaciones de audio reales de audiencias o testimonios de víctimas y menores</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 19 -->
+    <section class="slide has-diagram" data-block="5" data-title="Anatomía del prompt seguro">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 5 · Laboratorio</span>
+        <h2 class="slide-title">La anatomía del prompt jurídico seguro</h2>
+        <h3 class="slide-subtitle">Cómo escribir instrucciones sin riesgos</h3>
+        <ul class="points">
+          <li><strong>Rol:</strong> “actúa como asistente de apoyo documental…”</li>
+          <li><strong>Límites:</strong> “no inventes hechos, limítate a las fuentes suministradas…”</li>
+          <li><strong>Verificación:</strong> incluir siempre la advertencia de revisión humana</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/13-prompting-seguro.svg" alt="Anatomía del prompt seguro en seis bloques: rol, tarea, contexto, límites, formato y verificación" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 20 -->
+    <section class="slide" data-block="5" data-title="Demo 1: Anonimización" data-demo="1">
+      <div class="slide-inner">
+        <span class="kicker demo">Bloque 5 · Demo 1</span>
+        <h2 class="slide-title">Anonimización de un caso ficticio</h2>
+        <h3 class="slide-subtitle">Aprender a limpiar los datos antes de procesar</h3>
+        <ul class="points">
+          <li><strong>Insumo:</strong> relato ficticio con nombres, cédula inventada y dirección</li>
+          <li><strong>Acción:</strong> uso del prompt de anonimización estructurado</li>
+          <li><strong>Resultado:</strong> texto libre de identificadores, procesable de forma segura</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 21 -->
+    <section class="slide" data-block="5" data-title="Demo 2: Acta de audiencia" data-demo="2">
+      <div class="slide-inner">
+        <span class="kicker demo">Bloque 5 · Demo 2</span>
+        <h2 class="slide-title">Transcripción de audiencia a acta</h2>
+        <h3 class="slide-subtitle">Borradores eficientes bajo control humano</h3>
+        <ul class="points">
+          <li><strong>Insumo:</strong> diálogo conversacional desordenado sobre visitas y alimentos</li>
+          <li><strong>Proceso:</strong> extracción estructurada de compromisos y plazos</li>
+          <li><strong>Resultado:</strong> acta de conciliación con la cláusula obligatoria de revisión</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 22 -->
+    <section class="slide" data-block="5" data-title="Demo 3: Semaforización" data-demo="3">
+      <div class="slide-inner">
+        <span class="kicker demo">Bloque 5 · Demo 3</span>
+        <h2 class="slide-title">Semaforización de plazos procesales</h2>
+        <h3 class="slide-subtitle">Control de términos sin delegar decisiones</h3>
+        <ul class="points">
+          <li><strong>Entrada:</strong> 4 radicaciones ficticias con tipos de trámite y fechas variadas</li>
+          <li><strong>Acción:</strong> cálculo de plazos y días restantes</li>
+          <li><strong>Salida:</strong> matriz de priorización visual ordenada por semáforo</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 23 -->
+    <section class="slide" data-block="5" data-title="Demo 4: Prompt seguro" data-demo="4">
+      <div class="slide-inner">
+        <span class="kicker demo">Bloque 5 · Demo 4</span>
+        <h2 class="slide-title">El prompt jurídico seguro en acción</h2>
+        <h3 class="slide-subtitle">Comparación: mal prompt vs. prompt seguro</h3>
+        <ul class="points">
+          <li><strong>Mal prompt:</strong> “hazme un auto rápido” → alucinaciones y normas obsoletas</li>
+          <li><strong>Prompt seguro:</strong> delimita fuentes, prohíbe inventar datos, exige corchetes</li>
+          <li>La transparencia exige detallar qué prompts se usaron (Acuerdo PCSJA24-12243)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 24 -->
+    <section class="slide has-diagram" data-block="6" data-title="Madurez institucional">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 6 · Hoja de ruta</span>
+        <h2 class="slide-title">Madurez institucional</h2>
+        <h3 class="slide-subtitle">El camino hacia la adopción gradual y segura</h3>
+        <ul class="points">
+          <li><strong>Nivel 1 (30 días):</strong> prompts personales seguros y guías internas</li>
+          <li><strong>Nivel 2 (90 días):</strong> biblioteca de prompts aprobados y formatos estandarizados</li>
+          <li><strong>Nivel 3 (180 días):</strong> copilotos internos cerrados sobre normativas públicas</li>
+        </ul>
+        <figure class="diagram"><img src="assets/diagrams/14-hoja-ruta.svg" alt="Hoja de ruta de adopción en cinco escalones, del uso individual a la interoperabilidad nacional" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- 25 -->
+    <section class="slide closing" data-block="6" data-title="Cierre y compromisos">
+      <div class="slide-inner">
+        <span class="kicker">Bloque 6 · Cierre</span>
+        <h2 class="slide-title">Compromisos del taller</h2>
+        <h3 class="slide-subtitle">El funcionario competente siempre lidera el despacho</h3>
+        <ul class="points">
+          <li>La IA produce borradores editables; la legitimidad jurídica es del humano</li>
+          <li>No se empieza por una plataforma perfecta; se empieza por ordenar tareas y riesgos</li>
+          <li>Formación continua en herramientas públicas (cursos MinTIC y Escuela Judicial)</li>
+        </ul>
+        <p class="closing-note">Gracias · Borrador sujeto a revisión del funcionario competente</p>
+      </div>
+    </section>
+
   </main>
+
+  <nav class="controls" aria-label="Navegación de la presentación">
+    <button id="btnMenu" class="ctrl ctrl-menu" aria-label="Abrir índice">☰ Índice</button>
+    <div class="counter"><span id="cur">1</span><span class="counter-sep">/</span><span id="total">25</span></div>
+    <div class="arrows">
+      <button id="btnPrev" class="ctrl ctrl-arrow" aria-label="Anterior">‹</button>
+      <button id="btnNext" class="ctrl ctrl-arrow" aria-label="Siguiente">›</button>
+    </div>
+  </nav>
+
+  <div class="menu-overlay" id="menu" hidden>
+    <div class="menu-panel" role="dialog" aria-label="Índice de la presentación">
+      <header class="menu-header">
+        <strong>Índice del taller</strong>
+        <button id="btnMenuClose" class="menu-close" aria-label="Cerrar índice">✕</button>
+      </header>
+      <div class="menu-list" id="menuList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,48 @@
+<svg width="760" height="462.4616613995168" viewBox="-110 -98.70076261522382 760 462.4616613995168" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#1e1e1e" />
+  </marker>
+</defs>
+  <rect x="-110" y="-98.70076261522382" width="760" height="462.4616613995168" fill="#ffffff" />
+  <text x="104.78112518322052" y="-34.70076261522382" fill="#1e1e1e" font-size="24" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="104.78112518322052">¿Qué es un Agente de IA?</tspan>
+  </text>
+  <rect x="180" y="120" width="200" height="60" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="280.0" y="150.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="280.0">AGENTE DE IA</tspan>
+  </text>
+  <rect x="-20" y="20" width="180" height="50" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="70.0" y="45.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="70.0">Modelo</tspan>
+  </text>
+  <path d="M 280.65234375 120.69140625 L 167.31482016211544 68.64325424730862" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="380" y="20" width="180" height="50" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="470.0" y="45.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="470.0">Rol</tspan>
+  </text>
+  <path d="M 294.453125 119.17578125 L 379.58420517318893 66.41899589786283" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="-70" y="160" width="180" height="50" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="20.0" y="185.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="20.0">Reglas y límites</tspan>
+  </text>
+  <path d="M 177.96875 150.46875 L 112.890625 176.06640625" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="430" y="160" width="180" height="50" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="520.0" y="185.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="520.0">Herramientas</tspan>
+  </text>
+  <path d="M 381.39453125 151 L 433.4453125 184.8515625" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="-8.680198529458494" y="273.760898784293" width="180" height="50" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="81.3198014705415" y="298.760898784293" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="81.3198014705415">Memoria local</tspan>
+  </text>
+  <path d="M 281.07421875 180.4296875 L 154.69180003511127 267.6636420537774" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="357.6334624452678" y="270.4344658960199" width="180" height="50" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="447.6334624452678" y="295.4344658960199" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="447.6334624452678">Evaluación</tspan>
+  </text>
+  <path d="M 284.4046841686022 180.78515625 L 395.857232404858 259.48510798196935" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

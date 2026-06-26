@@ -1,0 +1,43 @@
+<svg width="569.5999999999999" height="547.7531749582786" viewBox="-74.04857543030789 -107.75317495827863 569.5999999999999 547.7531749582786" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#1e1e1e" />
+  </marker>
+</defs>
+  <rect x="-74.04857543030789" y="-107.75317495827863" width="569.5999999999999" height="547.7531749582786" fill="#ffffff" />
+  <text x="-34.04857543030789" y="-43.753174958278635" fill="#1e1e1e" font-size="24" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="-34.04857543030789">Capas de mejora de un Agente / Gem</tspan>
+  </text>
+  <rect x="0" y="0" width="340" height="50" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="170.0" y="25.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="170.0">Modelo Base (GPT / Gemini)</tspan>
+  </text>
+  <rect x="0" y="70" width="340" height="50" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="170.0" y="95.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="170.0">+ Rol específico (Asistente de...)</tspan>
+  </text>
+  <path d="M 169.95738425409445 54.00137470148083 L 169.851532240071 67.08895422741162" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="0" y="140" width="340" height="50" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="170.0" y="165.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="170.0">+ Reglas y límites (No alucinar...)</tspan>
+  </text>
+  <path d="M 171.16709619285805 121.86806788168639 L 169.75198087421222 136.70681394471183" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="0.0027494029616548232" y="209.85290694155185" width="340" height="50" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="170.00274940296165" y="234.85290694155185" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="170.00274940296165">+ Skills / Instrucciones de tarea</tspan>
+  </text>
+  <path d="M 170.00137470148084 191.75179111505577 L 169.90239619486152 209.65907403275563" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="0" y="280" width="340" height="50" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="170.0" y="305.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="170.0">+ Memoria (Documentos autorizados)</tspan>
+  </text>
+  <path d="M 169.91634109860655 261.81896904599057 L 170.2590727268959 278.00567973774923" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="0" y="350" width="340" height="50" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="170.0" y="375.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="170.0">+ Evaluación (Revisión humana)</tspan>
+  </text>
+  <path d="M 169.14047225503813 331.1604925317969 L 169.49264924316225 346.6468972586651" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

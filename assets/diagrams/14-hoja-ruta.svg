@@ -1,0 +1,48 @@
+<svg width="1040.1861684303024" height="243.3126460497283" viewBox="-40 -123.3126460497283 1040.1861684303024 243.3126460497283" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#1e1e1e" />
+  </marker>
+</defs>
+  <rect x="-40" y="-123.3126460497283" width="1040.1861684303024" height="243.3126460497283" fill="#ffffff" />
+  <text x="255.65322803993718" y="-59.3126460497283" fill="#1e1e1e" font-size="24" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="255.65322803993718">Hoja de Ruta: Adopción Institucional</tspan>
+  </text>
+  <rect x="0" y="0" width="160" height="80" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="80.0" y="20.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="80.0">Nivel 1</tspan>
+    <tspan x="80.0" dy="20.0">Uso individual</tspan>
+    <tspan x="80.0" dy="20.0">con cuidado</tspan>
+  </text>
+  <rect x="200" y="0" width="160" height="80" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="280.0" y="20.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="280.0">Nivel 2</tspan>
+    <tspan x="280.0" dy="20.0">Prompts</tspan>
+    <tspan x="280.0" dy="20.0">institucionales</tspan>
+  </text>
+  <path d="M 163.37030045528633 40.442820354915 L 200.0 40.0" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="400" y="0" width="160" height="80" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="480.0" y="20.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="480.0">Nivel 3</tspan>
+    <tspan x="480.0" dy="20.0">Copilotos</tspan>
+    <tspan x="480.0" dy="20.0">internos</tspan>
+  </text>
+  <path d="M 363.87894545755364 39.8115021462186 L 400.0 40.0" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="600.1803506668554" y="0" width="160" height="80" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="680.1803506668554" y="20.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="680.1803506668554">Nivel 4</tspan>
+    <tspan x="680.1803506668554" dy="20.0">Agentes</tspan>
+    <tspan x="680.1803506668554" dy="20.0">conectados</tspan>
+  </text>
+  <path d="M 561.3955610347194 40.00299202942509 L 600.0 40.0" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="800.1861684303024" y="-0.18616843030224572" width="160" height="80" fill="#69db7c" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="880.1861684303024" y="19.813831569697754" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="880.1861684303024">Nivel 5</tspan>
+    <tspan x="880.1861684303024" dy="20.0">Sistema nacional</tspan>
+    <tspan x="880.1861684303024" dy="20.0">interoperable</tspan>
+  </text>
+  <path d="M 762.6671735403875 40.032912323676044 L 799.9072470878218 40.005984058850174" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

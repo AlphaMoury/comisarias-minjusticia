@@ -1,0 +1,48 @@
+<svg width="681.06640625" height="460" viewBox="-101.06640625 -100 681.06640625 460" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#1e1e1e" />
+  </marker>
+</defs>
+  <rect x="-101.06640625" y="-100" width="681.06640625" height="460" fill="#ffffff" />
+  <text x="0" y="-36" fill="#1e1e1e" font-size="24" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="0">Anatomía del Prompt Jurídico Seguro</tspan>
+  </text>
+  <rect x="-61.06640625" y="91.140625" width="180" height="50" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="28.93359375" y="116.140625" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="28.93359375">Prompt Seguro</tspan>
+  </text>
+  <rect x="260" y="0" width="280" height="45" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="400.0" y="22.5" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="400.0">Rol: Asistente documental</tspan>
+  </text>
+  <path d="M 120.84807165356483 110.65808092661322 L 254.32783069457182 19.04397765916727" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="260" y="55" width="280" height="45" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="400.0" y="77.5" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="400.0">Tarea: Borrador de auto</tspan>
+  </text>
+  <path d="M 122.59544999843786 113.6635962866064 L 255.0353845504313 76.63972144582" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="260" y="110" width="280" height="45" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="400.0" y="132.5" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="400.0">Contexto: Ley 2126 y hechos</tspan>
+  </text>
+  <path d="M 120.37984160115269 114.45615030085581 L 258.5498790705661 131.66242983182048" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="260" y="165" width="280" height="45" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="400.0" y="187.5" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="400.0">Límites: No inventar normas</tspan>
+  </text>
+  <path d="M 119.62692762463105 117.49471875682109 L 258.9003248261679 189.9266041044375" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="260" y="220" width="280" height="45" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="400.0" y="242.5" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="400.0">Formato: Corchetes editables</tspan>
+  </text>
+  <path d="M 120.39511769764081 124.06493813659146 L 258.0966829160965 247.20589918982785" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="260" y="275" width="280" height="45" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="400.0" y="297.5" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="400.0">Verificación: Revisión humana</tspan>
+  </text>
+  <path d="M 119.01230519764081 122.14788794078753 L 263.52276871866354 319.43384074164334" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

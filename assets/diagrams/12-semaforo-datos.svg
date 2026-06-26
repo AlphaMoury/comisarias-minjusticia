@@ -1,0 +1,45 @@
+<svg width="700" height="350" viewBox="-40 -100 700 350" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#1e1e1e" />
+  </marker>
+</defs>
+  <rect x="-40" y="-100" width="700" height="350" fill="#ffffff" />
+  <text x="0" y="-36" fill="#1e1e1e" font-size="24" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="0">Semáforo de Datos Sensibles</tspan>
+  </text>
+  <rect x="100" y="0" width="240" height="50" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="220.0" y="25.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="220.0">Datos de Comisaría</tspan>
+  </text>
+  <rect x="0" y="100" width="180" height="50" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="90.0" y="125.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="90.0">Público</tspan>
+  </text>
+  <rect x="0" y="170" width="180" height="40" fill="#d8f5a2" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="90.0" y="190.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="90.0">Leyes y plantillas</tspan>
+  </text>
+  <path d="M 220.63671875 52.125 L 90.0 100.0" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="220" y="100" width="180" height="50" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="310.0" y="125.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="310.0">Interno</tspan>
+  </text>
+  <rect x="220" y="170" width="180" height="40" fill="#ffec99" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="310.0" y="190.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="310.0">Docs sin nombres</tspan>
+  </text>
+  <path d="M 220 50 L 310 100" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="440" y="100" width="180" height="50" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="530.0" y="125.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="530.0">Sensible / Reservado</tspan>
+  </text>
+  <rect x="440" y="170" width="180" height="40" fill="#ff8787" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="530.0" y="190.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="530.0">🚫 PROHIBIDO subir</tspan>
+  </text>
+  <path d="M 227.484375 52.46484375 L 530.0 100.0" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

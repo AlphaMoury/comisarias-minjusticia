@@ -1,0 +1,63 @@
+<svg width="721.8782481003168" height="498.24643506836446" viewBox="-92.77277935031677 -118.24643506836446 721.8782481003168 498.24643506836446" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#1e1e1e" />
+  </marker>
+</defs>
+  <rect x="-92.77277935031677" y="-118.24643506836446" width="721.8782481003168" height="498.24643506836446" fill="#ffffff" />
+  <text x="116.45998566423191" y="-54.24643506836446" fill="#1e1e1e" font-size="24" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="116.45998566423191">MCP: El puente estándar</tspan>
+  </text>
+  <text x="30" y="18" fill="#e03131" font-size="18" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="30">Sin MCP (caótico)</tspan>
+  </text>
+  <rect x="40" y="40" width="140" height="50" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="110.0" y="65.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="110.0">IA</tspan>
+  </text>
+  <rect x="-52.77277935031677" y="120.14054165944583" width="140" height="40" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="17.227220649683233" y="140.14054165944583" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="17.227220649683233">Conector A</tspan>
+  </text>
+  <rect x="40" y="190" width="140" height="40" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="110.0" y="210.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="110.0">Conector B</tspan>
+  </text>
+  <rect x="154.16140692471748" y="131.16221091635538" width="140" height="40" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="224.16140692471748" y="151.16221091635538" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="224.16140692471748">Conector C</tspan>
+  </text>
+  <path d="M 110 90 L 200.276836550003 127.3713376058189" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 109.20892918545024 93.5474581839967 L 110.99371101371963 189.8759069944141" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 109.28126190878298 91.07857101305979 L 45.258088016651286 118.16631368721664" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <text x="340" y="18" fill="#2f9e44" font-size="18" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="340">Con MCP (ordenado)</tspan>
+  </text>
+  <rect x="350" y="40" width="140" height="50" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="420.0" y="65.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="420.0">IA</tspan>
+  </text>
+  <rect x="350" y="140" width="140" height="50" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="420.0" y="165.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="420.0">MCP (Puente)</tspan>
+  </text>
+  <path d="M 420 90 L 420 140" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="280" y="240" width="120" height="40" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="340.0" y="260.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="340.0">Expedientes</tspan>
+  </text>
+  <rect x="469.10546875" y="239.94140625" width="120" height="40" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="529.10546875" y="259.94140625" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="529.10546875">Calendario</tspan>
+  </text>
+  <rect x="350" y="300" width="140" height="40" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="420.0" y="320.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="420.0">Normas</tspan>
+  </text>
+  <path d="M 415.73046875 191.11328125 L 340.0 240.0" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 420 190 L 507.86328125 238.421875" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 420 190 L 420 300" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

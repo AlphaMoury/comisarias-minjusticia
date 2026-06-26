@@ -1,0 +1,63 @@
+<svg width="860" height="450" viewBox="-40 -100 860 450" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 7 5 L 0 8.5 z" fill="#1e1e1e" />
+  </marker>
+</defs>
+  <rect x="-40" y="-100" width="860" height="450" fill="#ffffff" />
+  <text x="0" y="-36" fill="#1e1e1e" font-size="24" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="0">Chatbot genérico vs Copiloto institucional</tspan>
+  </text>
+  <text x="50" y="18" fill="#868e96" font-size="18" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="50">Chatbot genérico</tspan>
+  </text>
+  <rect x="20" y="40" width="200" height="50" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="120.0" y="65.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="120.0">Usuario</tspan>
+  </text>
+  <rect x="20" y="150" width="200" height="50" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="120.0" y="175.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="120.0">Chatbot público</tspan>
+  </text>
+  <rect x="20" y="260" width="200" height="50" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="120.0" y="285.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="120.0">Respuesta genérica</tspan>
+  </text>
+  <path d="M 120 90 L 120 150" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 120 200 L 120 260" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <text x="370" y="18" fill="#1971c2" font-size="18" font-family='"Segoe UI", sans-serif' text-anchor="start">
+    <tspan x="370">Copiloto institucional</tspan>
+  </text>
+  <rect x="340" y="40" width="200" height="50" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="440.0" y="65.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="440.0">Usuario</tspan>
+  </text>
+  <rect x="340" y="150" width="200" height="50" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="440.0" y="175.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="440.0">Copiloto seguro</tspan>
+  </text>
+  <rect x="340" y="260" width="200" height="50" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="440.0" y="285.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="440.0">Respuesta verificable</tspan>
+  </text>
+  <path d="M 440 90 L 440 150" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 440 200 L 440 260" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="600" y="80" width="180" height="40" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="690.0" y="100.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="690.0">Documentos</tspan>
+  </text>
+  <rect x="600" y="140" width="180" height="40" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="690.0" y="160.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="690.0">Normas y formatos</tspan>
+  </text>
+  <rect x="600" y="200" width="180" height="40" fill="#d0bfff" stroke="#1e1e1e" stroke-width="2" rx="8" />
+  <text x="690.0" y="220.0" fill="#1e1e1e" font-size="16" font-family='"Segoe UI", sans-serif' text-anchor="middle">
+    <tspan x="690.0">Sistemas seguros</tspan>
+  </text>
+  <path d="M 600 100 L 540 165" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 600 160 L 540 175" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 595.93359375 217.57421875 L 540.0 185.0" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>
